@@ -11,7 +11,9 @@ namespace EmployeeWageComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to EmployeeWage Computation");
-            Console.ReadLine();
+            Uc1Attendence uc1Attendence = new Uc1Attendence();
+            Uc1Attendence.Employee();
+                Console.ReadLine();
         }
     }
 }
