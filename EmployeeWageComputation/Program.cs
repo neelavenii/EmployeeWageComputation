@@ -17,6 +17,7 @@ namespace EmployeeWageComputation
             Uc2EmployeeWage.CalculateWages();
             Uc3EmployeePartTime.EmployeeWage();
             Uc4SwitchCase.EmployeeSwitch();
+            Uc5MonthlyWages.MonthlyWages();
                 Console.ReadLine();
         }
     }
