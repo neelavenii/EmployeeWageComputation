@@ -13,6 +13,8 @@ namespace EmployeeWageComputation
             Console.WriteLine("Welcome to EmployeeWage Computation");
             Uc1Attendence uc1Attendence = new Uc1Attendence();
             Uc1Attendence.Employee();
+            Uc2EmployeeWage uc2EmployeeWage = new Uc2EmployeeWage();
+            Uc2EmployeeWage.CalculateWages();
                 Console.ReadLine();
         }
     }
