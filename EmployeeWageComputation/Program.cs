@@ -16,6 +16,7 @@ namespace EmployeeWageComputation
             Uc2EmployeeWage uc2EmployeeWage = new Uc2EmployeeWage();
             Uc2EmployeeWage.CalculateWages();
             Uc3EmployeePartTime.EmployeeWage();
+            Uc4SwitchCase.EmployeeSwitch();
                 Console.ReadLine();
         }
     }
