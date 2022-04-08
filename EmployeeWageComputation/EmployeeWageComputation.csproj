@@ -50,6 +50,7 @@
     <Compile Include="Uc3 EmployeePartTime.cs" />
     <Compile Include="Uc4 SwitchCase.cs" />
     <Compile Include="Uc5 MonthlyWagescs.cs" />
+    <Compile Include="Uc6 WagesForMonth .cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -11,13 +11,39 @@ namespace EmployeeWageComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to EmployeeWage Computation");
-            Uc1Attendence uc1Attendence = new Uc1Attendence();
-            Uc1Attendence.Employee();
-            Uc2EmployeeWage uc2EmployeeWage = new Uc2EmployeeWage();
-            Uc2EmployeeWage.CalculateWages();
-            Uc3EmployeePartTime.EmployeeWage();
-            Uc4SwitchCase.EmployeeSwitch();
-            Uc5MonthlyWages.MonthlyWages();
+            while(true)
+            {
+                Console.WriteLine("Select number :\n1)Attendence\n2)EmployeeWage\n3)EmployeeWagePartTime\n4)SwitchCase\n5)MonthlyWage\n6)WagesForMonth");
+                int option =Convert.ToInt32(Console.ReadLine());
+                switch(option)
+                {
+                    case 1:
+                       
+                        Uc1Attendence.Employee();
+                        break;
+                    case 2:
+
+                        Uc2EmployeeWage.CalculateWages();
+                        break;
+                    case 3 :
+
+                        Uc3EmployeePartTime.EmployeeWage();
+                        break;
+                    case 4:
+
+                        Uc4SwitchCase.EmployeeSwitch();
+                        break;
+                    case 5:
+
+                        Uc5MonthlyWages.MonthlyWages();
+                        break;
+                    case 6:
+
+                        Uc6WagesForMonth.WagesOfMonth();
+                        break;
+                }
+            }
+           
                 Console.ReadLine();
         }
     }
