@@ -39,12 +39,12 @@ namespace EmployeeWageComputation
                         break;
                     case 6:
 
-                        Uc6WagesForMonth.WagesOfMonth();
+                        Uc6WagesForMonth.ForMonth();
                         break;
                 }
             }
            
-                Console.ReadLine();
+                
         }
     }
 }

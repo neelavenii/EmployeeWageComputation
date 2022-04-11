@@ -51,6 +51,7 @@
     <Compile Include="Uc4 SwitchCase.cs" />
     <Compile Include="Uc5 MonthlyWagescs.cs" />
     <Compile Include="Uc6 WagesForMonth .cs" />
+    <Compile Include="Uc7Refactor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
