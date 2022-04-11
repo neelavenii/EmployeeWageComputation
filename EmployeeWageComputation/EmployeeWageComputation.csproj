@@ -45,13 +45,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Uc7Refactor.cs" />
     <Compile Include="Uc1 Attendence.cs" />
     <Compile Include="Uc2 EmployeeWage.cs" />
     <Compile Include="Uc3 EmployeePartTime.cs" />
     <Compile Include="Uc4 SwitchCase.cs" />
     <Compile Include="Uc5 MonthlyWagescs.cs" />
     <Compile Include="Uc6 WagesForMonth .cs" />
-    <Compile Include="Uc7Refactor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

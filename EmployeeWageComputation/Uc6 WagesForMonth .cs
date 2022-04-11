@@ -9,7 +9,7 @@ namespace EmployeeWageComputation
 
     internal class Uc6WagesForMonth
     {
-        public static void ForMonth()
+        public static void  ForMonth()
         {
             int empHrs = 0, empWage = 0, totalEmpWage = 0;
          const int FULL_TIME = 1;

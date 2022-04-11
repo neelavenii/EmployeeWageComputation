@@ -13,7 +13,8 @@ namespace EmployeeWageComputation
             Console.WriteLine("Welcome to EmployeeWage Computation");
             while(true)
             {
-                Console.WriteLine("Select number :\n1)Attendence\n2)EmployeeWage\n3)EmployeeWagePartTime\n4)SwitchCase\n5)MonthlyWage\n6)WagesForMonth");
+                Console.WriteLine("Select number :\n1)Attendence\n2)EmployeeWage\n3)EmployeeWagePartTime\n4)SwitchCase\n5)MonthlyWage\n" +
+                    "6)WagesForMonth\n7)refractor");
                 int option =Convert.ToInt32(Console.ReadLine());
                 switch(option)
                 {
@@ -40,6 +41,10 @@ namespace EmployeeWageComputation
                     case 6:
 
                         Uc6WagesForMonth.ForMonth();
+                        break;
+                    case 7:
+
+                        Uc7Refactor.computeEmpWage();
                         break;
                 }
             }
