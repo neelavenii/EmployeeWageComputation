@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmployeeWageCompute;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +11,16 @@ namespace EmployeeWageComputation
     {
         static void Main(string[] args)
         {
+            
+            
             Console.WriteLine("Welcome to EmployeeWage Computation");
             while(true)
             {
                 Console.WriteLine("Select number :\n1)Attendence\n2)EmployeeWage\n3)EmployeeWagePartTime\n4)SwitchCase\n5)MonthlyWage\n" +
-                    "6)WagesForMonth\n7)refractor");
+                    "6)WagesForMonth\n7)refractor\n8)MultipleCompanies");
                 int option =Convert.ToInt32(Console.ReadLine());
-                switch(option)
+                
+                switch (option)
                 {
                     case 1:
                        
@@ -45,6 +49,11 @@ namespace EmployeeWageComputation
                     case 7:
 
                         Uc7Refactor.computeEmpWage();
+                        break;
+                    case 8:
+
+                        Uc8MultipleCompanies.computeEmpWage("Dmart", 20, 2, 10);
+                        Uc8MultipleCompanies.computeEmpWage("Reliance",10,4,20);
                         break;
                 }
             }
