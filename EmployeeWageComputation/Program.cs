@@ -1,4 +1,4 @@
-﻿using EmployeeWageCompute;
+﻿using EmployeeWageComputation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +17,7 @@ namespace EmployeeWageComputation
             while(true)
             {
                 Console.WriteLine("Select number :\n1)Attendence\n2)EmployeeWage\n3)EmployeeWagePartTime\n4)SwitchCase\n5)MonthlyWage\n" +
-                    "6)WagesForMonth\n7)refractor\n8)MultipleCompanies");
+                    "6)WagesForMonth\n7)refractor\n8)MultipleCompanies\n9)EmpWageBuilderObject");
                 int option =Convert.ToInt32(Console.ReadLine());
                 
                 switch (option)
@@ -50,12 +50,20 @@ namespace EmployeeWageComputation
 
                         Uc7Refactor.computeEmpWage();
                         break;
-                    case 8:
+                   
+                    case 9:
 
-                        Uc8MultipleCompanies.computeEmpWage("Dmart", 20, 2, 10);
-                        Uc8MultipleCompanies.computeEmpWage("Reliance",10,4,20);
+                        EmpWageBuilderObject dMart = new EmpWageBuilderObject("Dmart", 20, 2, 10);
+                        EmpWageBuilderObject reliance = new EmpWageBuilderObject("Reliance", 10, 4, 20);
+                        dMart.computeEmpWage();
+                       
+                        reliance.computeEmpWage();
+                       
                         break;
+                    
+                        
                 }
+               
             }
            
                 
